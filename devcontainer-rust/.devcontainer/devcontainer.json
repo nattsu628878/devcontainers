@@ -1,0 +1,15 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+  "name": "rust",
+  "dockerComposeFile": "../compose.yml",
+  "service": "dood",
+  "workspaceFolder": "${localWorkspaceFolder}",
+  "customizations": {
+          "vscode": {
+              "extensions": [
+                  "rust-lang.rust-analyzer"
+              ]
+          }
+      }
+}
+
